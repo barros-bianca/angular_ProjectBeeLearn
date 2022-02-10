@@ -19,7 +19,8 @@ const routes: Routes = [
   {path: 'home', component: HomeComponent},
   {path:'contato', component: ContatoComponent},
   {path:'grupo', component: GrupoComponent},
-  {path:'sobre', component: SobreComponent}
+  
+
 
 ];
 
