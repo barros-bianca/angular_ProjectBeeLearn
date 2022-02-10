@@ -21,9 +21,13 @@ export class HomeComponent implements OnInit {
   grupo: Grupo = new Grupo()
   listaGrupo: Grupo[]
 
-  constructor(
-    private router: Router,
+
+  constructor(  
+    
+    private authService: AuthService,
+    private router: Router
     private grupoService: GrupoService
+
   ) { }
 
   ngOnInit() {
