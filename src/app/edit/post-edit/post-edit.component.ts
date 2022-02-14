@@ -99,7 +99,7 @@ export class PostEditComponent implements OnInit {
 
   apagarPost(){
     this.postagemService.deletePostagem(this.PostId).subscribe(()=>{
-      alert('Grupo apagado com sucesso!')
+      alert('Postagem apagada com sucesso!')
       this.router.navigate(['/home'])
     })
   }
